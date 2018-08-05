@@ -1,9 +1,3 @@
-#+TITLE: DM1 Project 01
-#+LANGUAGE: en
-#+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t
-#+OPTIONS: html-postamble:nil
-#+STARTUP: showeverything entitiespretty
-#+SETUPFILE: ../theme-bigblow.setup
 #+BEGIN_SRC emacs-lisp
 
 ;****************************************************
