@@ -1,4 +1,4 @@
-#+BEGIN_SRC emacs-lisp
+
 (defun vigenere (plainText key)
 
 (setq alphabet "abcdefghijklmnopqrstuvwxyz ")
@@ -29,19 +29,12 @@
 ;display the ciphertext.
 (print ciphertext))
 
-#+END_SRC
 
-#+RESULTS:
-: vigenere
 
-#+BEGIN_SRC emacs-lisp :results output
 (setq plain "Discrete math is hard but with a lot of effort and time anyone can do it")
 (setq k "BenningisAwesome")  
 (vigenere plain k)
-#+END_SRC 
 
-#+RESULTS:
-: 
-: "emfpzrzm eapl ag tesh ohb jobz a hsl cr igjbeb ntl liii sbksoi pnv qu ql"
+"emfpzrzm eapl ag tesh ohb jobz a hsl cr igjbeb ntl liii sbksoi pnv qu ql"
 
 
