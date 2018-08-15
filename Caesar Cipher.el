@@ -1,5 +1,3 @@
-#+BEGIN_SRC emacs-lisp
-
 ;****************************************************
 ;This block of code will do the caesar-cipher without
 ;any wrapping. ALL ASCII included.
@@ -27,12 +25,10 @@
   
 
 (caesar-cipher ?j "Tomorrow will be a great day")
-#+END_SRC
 
-#+RESULTS:
 : D_]_bb_ggY\\RUQWbUQdTQi
 
-#+BEGIN_SRC emacs-lisp
+
 ;************************************************************************
 ;* This version of caesar-cipher-wrapping will capitalize all the letters
 ;* in the phrase and then wrap the capitalized phrase
@@ -55,7 +51,5 @@
   
 ;;Note that spaces and punctuation are not handled. Only handled above. 
 (caesar-cipher-wrapping 22 "Do or do not. There is no try")
-#+END_SRC
 
-#+RESULTS:
 : ZKPKNPZKPJKPDPPDANAPEOPJKPPNU
