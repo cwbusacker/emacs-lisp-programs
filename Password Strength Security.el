@@ -1,4 +1,3 @@
-#+BEGIN_SRC emacs-lisp
 (defun break-down-message (message)
 ;transforms the message into a vector of chars.
    (mapcar 'vector message))
@@ -69,14 +68,14 @@
 
               
   
-#+END_SRC
 
-#+RESULTS:
-: password-strength-check
-#+BEGIN_SRC emacs-lisp :results output
+
+
+
+
   (password-strength-check "password")
-#+END_SRC
 
-#+RESULTS:
+
+
 : Your password is 11.764705882352942% secure
 
